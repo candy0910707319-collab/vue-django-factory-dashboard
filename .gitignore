@@ -6,7 +6,11 @@ frontend/.env.local
 frontend/.env.*.local
 
 # Python / Django / Backend
+venv/
+env/
+ENV/
 backend/venv/
+backend/env/
 backend/__pycache__/
 backend/*.pyc
 backend/*.pyo
@@ -16,6 +20,12 @@ backend/db.sqlite3
 backend/.env
 backend/media/
 backend/staticfiles/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+db.sqlite3
 
 # IDE
 .vscode/
