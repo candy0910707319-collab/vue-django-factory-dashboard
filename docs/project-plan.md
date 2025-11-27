@@ -84,7 +84,45 @@ Vue Web/
 - [ ] 建立 `frontend/` 和 `backend/` 資料夾
 - [ ] 初始化 Git 版本控制
 - [ ] 建立 `.gitignore` 檔案
+# Node.js / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env.local
+frontend/.env.*.local
 
+# Python / Django / Backend
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.Python
+backend/db.sqlite3
+backend/.env
+backend/media/
+backend/staticfiles/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.pytest_cache/
 #### 1.2 前端環境設定
 ```bash
 cd frontend
